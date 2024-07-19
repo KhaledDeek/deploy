@@ -1,0 +1,46 @@
+#c{
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+} 
+.login , .signup{
+    width: 400px;
+}  
+h1{
+    text-align: center;
+}
+.input-group{
+    margin-top: 15px;
+    align-items: center;
+}
+.form-control{
+    margin-bottom: 15px;
+}
+#pass , #em , #fn , #ln , #pw , #e , #cpw{
+    margin-left: 15px;
+}
+#em , #e{
+    margin-left: 50px;
+}
+#login_btn {
+    width: 70px;
+    margin-left: 167px;
+    margin-top: 15px;
+}
+#register_btn{
+    width: 150px;
+    margin-left: 120px;
+    margin-top: 15px;
+}
+#dob{
+    margin-left: 10px;
+}
+.messages{
+    color: red;
+}
+#first_name_error , #last_name_error , #password_error , #email_error{
+    color: red;
+    margin-left: 5px;
+}
